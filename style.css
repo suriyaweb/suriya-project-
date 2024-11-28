@@ -1,0 +1,597 @@
+
+ *{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; 
+ } 
+ul >li{
+    list-style: none;
+    display: inline-block;
+  }
+  ul li > a{
+    text-decoration: none;
+    color:black;
+    font-size: medium;
+    margin-right: 20px;
+  }
+  .navbar{
+    width:95%;
+    background-color:white;
+    padding-left: 20px;
+  }
+  .navbar-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-div div > a{
+    text-decoration: none;
+    color:black;
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  .ab{
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 8px;
+    background-color: #059669;
+    cursor: pointer;
+    border: #059669;
+  }
+  .cd{
+   background-color: #059669;
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: #059669;
+  } 
+  
+
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .navbar-div ul {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start;
+  }
+
+  .navbar-div {
+      flex-direction: column;
+  }
+
+  .navbar-div button {
+      width: 100%;
+      margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+      padding: 10px;
+  }
+
+  .navbar-div ul li a {
+      font-size: 14px; /* Smaller font for links */
+  }
+
+  .ab, .cd {
+      font-size: 14px;
+      padding: 8px 15px;
+      border: solid;
+      width: 20px;
+      height: 30px;
+  }
+}
+
+.one {
+  background-image: url('./pexels-fauxels-3183183.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 650px;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+  margin-top: 10px;
+}
+
+.one .as {
+  font-size: 75px;
+  margin-bottom: 20px;
+}
+
+.one p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.one button {
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #059669;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+  .one {
+       
+      height: 350px;
+      padding-top: 150px;
+  }
+
+  .one .as {
+      font-size: 50px; /* Reduce the font size */
+  }
+
+  .one p {
+      font-size: 18px; /* Slightly smaller text */
+  }
+
+  .one button {
+      width: 120px;
+      height: 45px;
+      font-size: 14px;
+  }
+}
+
+/* Media query for small screens (mobile phones) */
+@media (max-width: 480px) {
+  .one {
+      height: 300px;
+      padding-top: 100px;
+      text-align: left; /* Align text to the left for a mobile-friendly look */
+      padding-left: 20px;
+  }
+
+  .one .as {
+      font-size: 35px; /* Adjust heading size for small screens */
+  }
+
+  .one p {
+      font-size: 16px; /* Make paragraphs more compact */
+  }
+
+  .one button {
+      width: 100px;
+      height: 40px;
+      font-size: 12px;
+  }
+}
+
+p{
+  font-size:15px;
+}
+.three{
+  background: #ECFDF5;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+}
+.four{
+    color:rgb(102, 180, 0) ;
+    margin-right:70% ;
+    padding-top: 20px;
+}
+.five{
+   margin-right:50% ;
+   font-size: 30px;
+   font-weight: 900px;
+   color: #064E3B;
+   padding-top: 20px
+}
+.six{
+  margin-right:58% ;
+   font-size: 30px;
+   font-weight: 60%;
+   color: #064E3B;
+   padding-top: 20px
+}
+.seven{
+  margin-right:57% ;
+  font-size: 30px;
+  font-weight: 900px;
+  color: #064E3B;
+  padding-top: 20px
+}
+.eight{
+  margin-right:78% ;
+  font-size: 29px;
+  font-weight: 900px;
+  color: #064E3B;
+  padding-top: 20px
+} 
+
+
+/* Media query for medium screens (tablets) */
+@media (max-width: 768px) {
+  .three {
+      height: auto; /* Allow height to adjust based on content */
+      padding: 15px;
+  }
+
+  .three h1.four {
+      font-size: 28px; /* Reduce font size for the heading */
+  }
+
+  .three p {
+      font-size: 18px; /* Slightly smaller paragraph text */
+  }
+}
+
+/* Media query for small screens (mobile phones) */
+@media (max-width: 480px) {
+  .three {
+      padding: 10px;
+      text-align: left; /* Align content to the left for better readability */
+  }
+
+  .three h1.four {
+      font-size: 24px; /* Adjust heading size */
+      margin-bottom: 10px;
+  }
+
+  .three p {
+      font-size: 16px; /* Smaller paragraph text */
+      margin: 3px 0;
+  }
+}
+
+.qwe{
+  text-align: center;
+  font-size: 50px;
+  color: #252746;
+  
+} 
+.asd{
+  text-align: center;
+  color: #059669;
+
+}
+
+.container, .containers {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  gap: 20px;
+  height: 200px;
+}
+
+.container div, .containers div {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.container div h1, .containers div h1 {
+  font-size: 24px;
+  color: #064E3B;
+  margin-bottom: 10px;
+}
+
+.container div p, .containers div p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Media query for tablets (medium screens) */
+@media (max-width: 768px) {
+  .container, .containers {
+      flex-direction: column; /* Stack the items vertically */
+      align-items: center;
+      gap: 15px; /* Reduce gap between sections */
+      padding: 10px 20px;
+  }
+
+  .container div, .containers div {
+      width: 90%; /* Make the divs take up more space */
+  }
+
+  .container div h1, .containers div h1 {
+      font-size: 20px; /* Adjust heading size */
+  }
+
+  .container div p, .containers div p {
+      font-size: 14px; /* Smaller text for paragraphs */
+  }
+}
+
+/* Media query for mobile phones (small screens) */
+@media (max-width: 480px) {
+  .container, .containers {
+      padding: 10px;
+      gap: 10px; /* Further reduce gap for small screens */
+  }
+
+  .container div, .containers div {
+      width: 100%; /* Full-width for divs */
+      padding: 15px; /* Reduce padding inside */
+  }
+
+  .container div h1, .containers div h1 {
+      font-size: 18px; /* Smaller heading size */
+  }
+
+  .container div p, .containers div p {
+      font-size: 12px; /* Compact text */
+  }
+}
+
+.suriya{
+  width: 100%;
+  height: 550px;
+  background: #222831;
+  padding-top: 50px;
+  color:black;
+  
+}
+.massage{
+  background: #393E46;
+  width: 79%;
+  height: 600px;
+margin-left: 155px;
+border-radius: 20px;
+margin-top: 30px;
+display: flex;
+justify-content: space-evenly;
+color: white;
+
+} 
+ /* Default styles for large screens */
+ .suriya {
+  padding: 50px;
+  background-color: #393E46;
+  text-align: center;
+  
+}
+
+.massage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px; /* Space between elements */
+  color:white;
+  
+}
+
+#suriya, #po {
+  flex: 1; /* Each section takes up equal space */
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  color:white;
+
+}
+#po{
+  margin-bottom: 100px;
+}
+#suriya h2, #suriya h4 {
+  color:black;
+  margin-bottom: 10px;
+
+}
+#suriya button {
+  padding: 10px 20px;
+  background-color: #064E3B;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+#po p {
+  font-size: 16px;
+  line-height: 1.5;
+  color:black;
+  margin-top: 20px;
+  margin-right: 20px;
+  
+} 
+#po{
+  margin-bottom: 200px;
+}
+
+/* Media query for tablets (medium screens) */
+@media (max-width: 768px) {
+  .massage {
+      flex-direction: column; /* Stack items vertically */
+      align-items: center;
+  }
+
+  #suriya, #po {
+      width: 100%; /* Full width for individual sections */
+      text-align: center;
+      
+  }
+
+  #suriya h2, #suriya h4 {
+      font-size: 20px;
+  }
+
+  #suriya button {
+      font-size: 14px;
+  }
+
+  #po p {
+      font-size: 14px;
+  }
+}
+
+/* Media query for mobile phones (small screens) */
+@media (max-width: 480px) {
+  .suriya {
+      padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .massage {
+      gap: 10px; /* Reduce space between items */
+  }
+
+  #suriya, #po {
+      padding: 15px; /* Compact padding */
+  }
+
+  #suriya h2, #suriya h4 {
+      font-size: 18px;
+  }
+
+  #suriya button {
+      font-size: 12px;
+      padding: 8px 15px; /* Smaller button size */
+  }
+
+  #po p {
+      font-size: 12px;
+  }
+}
+
+.edc{
+  color:white;
+  background-color: rgb(9, 149, 204); 
+  margin-left: 100%;
+  font-size: 15px;
+}
+
+.system {
+  padding: 40px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.com {
+  margin-bottom: 30px;
+}
+
+.com p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.com h3 {
+  font-size: 20px;
+  color: #555;
+}
+
+.wwe {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  cursor: pointer;
+  height: 200px;
+}
+
+.wwe div {
+  flex: 1;
+  min-width: 200px;
+  padding: 15px;
+  
+}
+
+.wwe ul {
+  list-style: none;
+  padding: 15px;
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+}
+
+/* Media Query for Tablets (768px or less) */
+@media (max-width: 768px) {
+  .system {
+      padding: 30px;
+  }
+
+  .wwe {
+      flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+  }
+
+  .wwe div {
+      flex: 0 0 45%; /* Adjust width for two columns */
+      margin-bottom: 20px;
+      text-align: center; /* Center-align text for compact layout */
+  }
+
+  .com p {
+      font-size: 24px;
+  }
+
+  .com h3 {
+      font-size: 18px;
+  }
+}
+
+/* Media Query for Mobile Phones (480px or less) */
+@media (max-width: 480px) {
+  .system {
+      padding: 20px;
+  }
+
+  .wwe {
+      flex-direction: column; /* Stack items vertically */
+  }
+
+  .wwe div {
+      flex: 1;
+      margin-bottom: 15px;
+  }
+
+  .com p {
+      font-size: 20px;
+  }
+
+  .com h3 {
+      font-size: 16px;
+  }
+
+  .wwe ul {
+      font-size: 16px;
+  }
+}
+
+.name{
+  color: rgb(9, 149, 204);;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-top: 10px;
+  height: 50px;
+}
+.ref{
+  font-size: 40px;
+  width: 550px;
+}
+#suriya{
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+}
+#po{
+  margin-bottom: 100px;
+  margin-right: 20px;
+  color:black 
+}
+p{
+  font-size: 20px;
+}
+h2{
+  font-size: 20px;
+} 
+
+
+
+  
